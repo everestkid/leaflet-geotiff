@@ -13,6 +13,6 @@
 		"geotiff": "^0.4.1"
 	},
 	"optionalDependencies": {
-		"plotty": "^0.2.0"
+		"plotty": "^0.4.3"
 	}
 }
