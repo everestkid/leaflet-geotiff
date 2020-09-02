@@ -21,7 +21,8 @@ L.LeafletGeotiff.Plotty = L.LeafletGeotiffRenderer.extend({
 			throw new Error("plotty not defined");
 		}
 		this.name = "Plotty";
-		
+	plotty.addColorScale("ndvi-color-scale", ['#FF0000', '#CE7E45', '#DF923D', '#F1B555', '#FCD163', '#99B718', '#74A901','#66A000', '#529400', '#3E8601', '#207401', '#056201', '#004C00', '#023B01','#012E01', '#011D01', '#011301'], [0.000, 0.100, 0.150, 0.200, 0.250, 0.300, 0.350, 0.400, 0.450, 0.500, 0.550, 0.600, 0.650, 0.750, 0.800, 0.850, 0.900]);
+
         L.setOptions(this, options);
 		
 		this._preLoadColorScale();
