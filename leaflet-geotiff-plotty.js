@@ -22,7 +22,7 @@ L.LeafletGeotiff.Plotty = L.LeafletGeotiffRenderer.extend({
 		}
 		this.name = "Plotty";
 	plotty.addColorScale("ndvi-color-scale", ['#FF0000', '#CE7E45', '#DF923D', '#F1B555', '#FCD163', '#99B718', '#74A901','#66A000', '#529400', '#3E8601', '#207401', '#056201', '#004C00', '#023B01','#012E01', '#011D01', '#011301'], [0.000, 0.100, 0.150, 0.200, 0.250, 0.300, 0.350, 0.400, 0.450, 0.500, 0.550, 0.600, 0.650, 0.750, 0.800, 0.850, 0.900]);
-	plotty.addColorScale("fertilizer-color-scale",['#EBEC8B','#EBEC8B','#9EC573','#55A05C'],[0,0.333,0.666,1]);
+	plotty.addColorScale("fertilizer-color-scale",['#EBEC8B','#EBEC8B','#9EC573','#55A05C'],[0,0.34,0.63,1]);
         L.setOptions(this, options);
 		
 		this._preLoadColorScale();
